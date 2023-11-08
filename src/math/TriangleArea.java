@@ -9,7 +9,7 @@ public class TriangleArea {
 		System.out.print("Enter the height:");
 		double num2=in.nextInt();
 		
-		double area= 0*5*(num1*num2);
+		double area= 0.5*(num1*num2);
 		System.out.println("The area is"+area);
 		
 		
