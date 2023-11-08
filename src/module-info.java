@@ -4,5 +4,5 @@
 /**
  * 
  */
-module MATHCOMPUTATIONS1 {
+module OOP_MATHCLASSES {
 }
