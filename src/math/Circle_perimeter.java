@@ -1,10 +1,14 @@
 package math;
-
+import java.util.Scanner;
 public class Circle_perimeter 
 {
 	final double pi = 3.412;
-	public double circle_per(float radius)
+	Scanner in = new Scanner(System.in);
+	public void circle_per()
 	{
-	return (pi*(2*radius));
+		System.out.println("Enter radius: ");
+		float radius=in.nextFloat();
+		double per = pi*(radius*radius);
+		System.out.println("Your perimeter is: " +per);
 	}
 }
