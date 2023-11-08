@@ -51,8 +51,10 @@ public class MainClass {
 			trea.trangarea();
 			break;
 		case 8:
-			
+			division div=new division();
+			div.divide();
 			break;
+			
 			default:
 				System.out.println("Kindly select a valid option");
 		}
