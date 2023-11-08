@@ -10,7 +10,7 @@ public class TriangleArea {
 		double num2=in.nextInt();
 		
 		double area= 0*5*(num1*num2);
-		System.out.println("The sum is"+area);
+		System.out.println("The area is"+area);
 		
 		
 	}

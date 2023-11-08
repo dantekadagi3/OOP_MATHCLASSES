@@ -12,7 +12,7 @@ public void difference() {
     System.out.print("Enter the second number: ");
     int secondNumber = in.nextInt();
 
-    int difference= secondNumber-firstNumber;
+    int difference= firstNumber-secondNumber;
     System.out.println("The difference is " + difference);
 }
 

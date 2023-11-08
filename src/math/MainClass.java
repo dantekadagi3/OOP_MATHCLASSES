@@ -5,9 +5,10 @@ public class MainClass {
 	public static void main(String[] args) {
 		
 		Scanner in=new Scanner(System.in);
-		System.out.println("Hello Members");
-		
-		
+		boolean isRunning=true;
+		while(isRunning)
+		{
+		System.out.println("Calculator");
 		System.out.println("1.Addition");
 		System.out.println("2.Circle Area");
 		System.out.println("3.Circle Perimeter");
@@ -16,6 +17,7 @@ public class MainClass {
 		System.out.println("6.Subtraction");
 		System.out.println("7.Triangle Area");
 		System.out.println("8.Division");
+		System.out.println("9.Exit");
 		
 		System.out.println("Select your option:");
 		int option=in.nextInt();
@@ -54,13 +56,18 @@ public class MainClass {
 			division div=new division();
 			div.divide();
 			break;
+		case 9:
+			isRunning=false;
+			break;
 			
-			default:
+		default:
 				System.out.println("Kindly select a valid option");
 		}
 		
-		in.close();
+		
 		
 	}
-
+		in.close();
+		System.out.println("You have exited successfully!!!");
+}
 }
