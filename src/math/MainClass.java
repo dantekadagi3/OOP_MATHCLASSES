@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class MainClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
+		
+		Scanner in=new Scanner(System.in);
 		System.out.println("Hello Members");
 		
 		
@@ -18,7 +18,7 @@ public class MainClass {
 		System.out.println("8.Division");
 		
 		System.out.println("Select your option:");
-		int option=sc.nextInt();
+		int option=in.nextInt();
 		
 		switch(option) {
 		case 1:
@@ -59,7 +59,7 @@ public class MainClass {
 				System.out.println("Kindly select a valid option");
 		}
 		
-		
+		in.close();
 		
 	}
 
